@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(https://img.elo7.com.br/product/zoom/2FBA0F4/fundo-fotografico-em-tecido-mapa-do-tesouro-2-20-x-1-50-crianca.jpg);
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1.8
+}
+.font2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 45px;
+}
+.font3{
+    margin-bottom: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+}
+.font4{
+    margin-bottom: 10px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+}
+/*----------------------------------------------Titulo Top---------------------------------------------------*/
+.titulotop {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.titulologo {
+    width: 20%;
+}
+/*----------------------------------------------MENU---------------------------------------------------------*/
+.navbar  {
+
+    padding-left: 15%;
+}
+.navbar a {
+    color: white;
+    text-align: center;
+    font: 20px;
+}
+
+/*----------------------------------------------Layout-------------------------------------------------------*/
+.coluna {
+    float:left;
+    padding: 10px 20px;
+    text-align: justify;
+}
+.coluna.meio {
+    background-color: #113CFC;
+    width: 60%;
+}
+.coluna.lateral {
+    width: 20%;
+}
+.ajustar1{
+    padding-left: 6%;
+}
+
+.coluna2 {
+    float:left;
+    padding: 10px 20px;
+    text-align: justify;
+}
+.coluna2.meio2 {
+    background-color: #113CFC;
+    width: 60%;
+}
+.coluna2.lateral2 {
+    width: 20%;
+}
+
+/*---------------------------------------------imagens, etc--------------------------------------------------*/
+.textofoto {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.textofoto2 {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img.wallpapers
+  {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+    height: 30%;
+  }
+/*---------------------------------------------videos, etc--------------------------------------------------*/
+video {
+    padding-left: 100px;
+    
+}
+/*---------------------------------------------Letras, etc---------------------------------------------------*/
+h2 {
+    text-align: center;
+}
+.none{
+    text-decoration: none;
+}
+/*---------------------------------------------Wallpapers----------------------------------------------------*/
+.ajustar2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*----------------------------------------------Tabela-------------------------------------------------------*/
+.textotabela {
+    float: left;
+
+    
+}
+table {
+    margin-top: 25px;
+    border: 1px solid black;
+    float: right;
+    background-color: #113CFC;
+    width: 20%;
+    margin-left:20px;
+  }
+th {
+    text-align: center;
+}
+table, td {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+    text-align: left;
+  }
+table img {
+    padding: 10px;
+}
+table a {
+    color: white;
+}
+table a:hover {
+    color: black;
+}
+.fototabela{
+    float: left;
+    margin-right: 20px;
+    width: 60%;
+}
+.fototabela2{
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+}
+
+/*---------------------------------------------aba personagens-----------------------------------------------*/
+div.fotorosto {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+    background-color: #113CFC;
+}
+div.fotorosto:hover {
+    text-decoration: none;
+    background-color: #1597E5;
+    color: black;
+}
+div.fotosrosto img {
+    width: 100%;
+    height: auto;
+}
+div.fotonome {
+    padding: 15px;
+    height: auto;
+    color: white;
+}
+
+/*---------------------------------------------Rodapé--------------------------------------------------------*/
+.baixo {
+    padding: 40px;
+    clear: both
+}
+.rodape {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+    text-align: center;
+    clear: both
+}

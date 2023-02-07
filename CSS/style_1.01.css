@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(https://img.elo7.com.br/product/zoom/2FBA0F4/fundo-fotografico-em-tecido-mapa-do-tesouro-2-20-x-1-50-crianca.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8
+}
+.font2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 45px;
+    color: black;
+}
+
+.font2a {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 45px;
+    color: black;
+    
+}
+.font2a:hover {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 45px;
+    color: red;
+}
+.font3{
+    margin-bottom: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 45px;
+}
+.font4{
+    margin-bottom: 10px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+}
+/*----------------------------------------------Titulo Top---------------------------------------------------*/
+.titulotop {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.titulologo {
+    width: 20%;
+}
+/*----------------------------------------------MENU---------------------------------------------------------*/
+.navbar  {  
+    position: sticky;
+    top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #113CFC;
+}
+.navbar ul {
+    margin: auto;
+    max-width: 800px;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*----------------------------------------------Layout-------------------------------------------------------*/
+.coluna {
+    float:left;
+    padding: 10px 20px;
+    text-align: justify;
+}
+.coluna.meio {
+    background-color: #69DADB;
+    width: 60%;
+}
+.coluna.lateral {
+    width: 20%;
+}
+.colunamini {
+    float:left;
+    width: 50%;
+}
+.colunamini2 {
+    float:left;
+    width: 25%;
+}
+
+.ajustar1{
+    padding-left: 6%;
+}
+.ajustar2{
+    float:left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ajustar3 {
+    margin-left: 40%;
+    border: 1px solid black;
+    width: 180px;
+    background-color: #113CFC;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+/*---------------------------------------------imagens, etc--------------------------------------------------*/
+.textofoto {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.textofoto2 {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 20px;
+}
+.textofoto2b {
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+.textofoto2c {
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 20px;
+}
+.textofoto3 {
+    float: left;
+    width: 45%;
+    padding-right: 10px ;
+}
+.textofoto4 {
+    float: right;
+    width: 45%;
+    padding-left: 10px ;
+}
+.textofoto5 {
+    float: left;
+    width: 100%;
+}
+.textofoto6 {
+    float: left;
+    padding-top: 5px;
+    padding-right: 12px ;
+}
+img.wallpapers
+  {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+    height: 30%;
+  }
+/*---------------------------------------------videos, etc--------------------------------------------------*/
+video {
+    width: 70%;
+    
+    margin-left: 15%;
+    padding-bottom: 20px;
+}
+/*---------------------------------------------Letras, etc---------------------------------------------------*/
+a {
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.none{
+    text-decoration: none;
+}
+/*---------------------------------------------Wallpapers----------------------------------------------------*/
+.ajustar3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*----------------------------------------------Tabela-------------------------------------------------------*/
+.textotabela {
+    float: left;
+}
+table {
+    margin-top: 25px;
+    border: 1px solid black;
+    float: right;
+    background-color: #113CFC;
+    width: 20%;
+    margin-left:20px;
+  }
+th {
+    text-align: center;
+}
+table, td {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+table img {
+    padding: 10px;
+}
+table a {
+    color: white;
+}
+table a:hover {
+    color: black;
+}
+.fototabela{
+    float: left;
+    margin-right: 20px;
+    width: 60%;
+}
+.fototabela2{
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+}
+
+/*---------------------------------------------aba personagens-----------------------------------------------*/
+div.fotorosto {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+    background-color: #113CFC;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+div.fotorosto:hover {
+    text-decoration: none;
+    background-color: #1597E5;
+    color: black;
+}
+div.fotosrosto img {
+    width: 100%;
+    height: auto;
+}
+div.fotonome {
+    padding: 15px;
+    height: auto;
+    color: white;
+}
+
+/*---------------------------------------------Rodapé--------------------------------------------------------*/
+.baixo {
+    padding: 40px;
+    clear: both
+}
+.rodape {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+    text-align: center;
+    clear: both
+}
+
+
+
